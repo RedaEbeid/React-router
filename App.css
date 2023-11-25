@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    /* list-style: none; */
+}
+body {
+    background-color: rgb(1, 9, 53);
+    color: #fff;
+}
+.App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header h2 {
+    font-size: 40px;
+}
+.displayFlex {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    margin-bottom: 100px;
+    background-color: rgb(0, 255, 64);
+    font-weight: bold;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.postTitle {
+    background-color: orange;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.postTitle:hover {
+    background-color: orangered;
+}
+h2{
+    font-size: 20px;
+}
+.home, .post, .about, .freind {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.freind {
+    text-align: left;
+}
+.freind h6 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #cccccc;
+}
+.post {
+    color: #fff;
+}
+
+
